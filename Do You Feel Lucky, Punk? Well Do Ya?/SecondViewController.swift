@@ -23,10 +23,11 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.loadView()
         // Do any additional setup after loading the view, typically from a nib.
     }//end of method viewDidLoad
     override func viewDidAppear(_ animated: Bool) {
-     
+        viewDidLoad()
     }
     
 }//end of class
