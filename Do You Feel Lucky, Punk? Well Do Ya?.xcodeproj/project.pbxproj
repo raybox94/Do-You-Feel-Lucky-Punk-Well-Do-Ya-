@@ -13,6 +13,11 @@
 		6B703B0E2225AC03000315D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B703B0C2225AC03000315D9 /* Main.storyboard */; };
 		6B703B102225AC09000315D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B703B0F2225AC09000315D9 /* Assets.xcassets */; };
 		6B703B132225AC09000315D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B703B112225AC09000315D9 /* LaunchScreen.storyboard */; };
+		6B703B1D2225AD28000315D9 /* guesser_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B703B1A2225AD27000315D9 /* guesser_icon.png */; };
+		6B703B1E2225AD28000315D9 /* history_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B703B1B2225AD27000315D9 /* history_icon.png */; };
+		6B703B1F2225AD28000315D9 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B703B1C2225AD27000315D9 /* statistics.png */; };
+		6B7F15BE22261C7700C955FF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F15BD22261C7600C955FF /* ThirdViewController.swift */; };
+		6B7F15C022261E5B00C955FF /* Guesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F15BF22261E5B00C955FF /* Guesser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		6B703B0F2225AC09000315D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B703B122225AC09000315D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B703B142225AC09000315D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B703B1A2225AD27000315D9 /* guesser_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guesser_icon.png; path = images/guesser_icon.png; sourceTree = SOURCE_ROOT; };
+		6B703B1B2225AD27000315D9 /* history_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history_icon.png; path = images/history_icon.png; sourceTree = SOURCE_ROOT; };
+		6B703B1C2225AD27000315D9 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statistics.png; path = images/statistics.png; sourceTree = SOURCE_ROOT; };
+		6B7F15BD22261C7600C955FF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		6B7F15BF22261E5B00C955FF /* Guesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		6B703B052225AC03000315D9 /* Do You Feel Lucky, Punk? Well Do Ya? */ = {
 			isa = PBXGroup;
 			children = (
+				6B703B1A2225AD27000315D9 /* guesser_icon.png */,
+				6B703B1B2225AD27000315D9 /* history_icon.png */,
+				6B703B1C2225AD27000315D9 /* statistics.png */,
 				6B703B062225AC03000315D9 /* AppDelegate.swift */,
 				6B703B082225AC03000315D9 /* FirstViewController.swift */,
 				6B703B0A2225AC03000315D9 /* SecondViewController.swift */,
+				6B7F15BD22261C7600C955FF /* ThirdViewController.swift */,
+				6B7F15BF22261E5B00C955FF /* Guesser.swift */,
 				6B703B0C2225AC03000315D9 /* Main.storyboard */,
 				6B703B0F2225AC09000315D9 /* Assets.xcassets */,
 				6B703B112225AC09000315D9 /* LaunchScreen.storyboard */,
@@ -126,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B703B132225AC09000315D9 /* LaunchScreen.storyboard in Resources */,
+				6B703B1D2225AD28000315D9 /* guesser_icon.png in Resources */,
+				6B703B1F2225AD28000315D9 /* statistics.png in Resources */,
 				6B703B102225AC09000315D9 /* Assets.xcassets in Resources */,
 				6B703B0E2225AC03000315D9 /* Main.storyboard in Resources */,
+				6B703B1E2225AD28000315D9 /* history_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +158,8 @@
 			files = (
 				6B703B0B2225AC03000315D9 /* SecondViewController.swift in Sources */,
 				6B703B072225AC03000315D9 /* AppDelegate.swift in Sources */,
+				6B7F15C022261E5B00C955FF /* Guesser.swift in Sources */,
+				6B7F15BE22261C7700C955FF /* ThirdViewController.swift in Sources */,
 				6B703B092225AC03000315D9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU6SXF7H37;
 				INFOPLIST_FILE = "Do You Feel Lucky, Punk? Well Do Ya?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WU6SXF7H37;
 				INFOPLIST_FILE = "Do You Feel Lucky, Punk? Well Do Ya?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
